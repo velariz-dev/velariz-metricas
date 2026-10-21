@@ -1,0 +1,42 @@
+# Mide cada lunes los 4 sitios de ejemplo de VelarizDev y actualiza metricas.json.
+#
+# QUÉ HACE, EN ORDEN
+#  1. Se despierta solo cada lunes (o a mano desde la pestaña Actions → "Run workflow").
+#  2. Corre medir_metricas.mjs, que consulta PageSpeed Insights con la clave guardada
+#     en los secretos del repositorio (PAGESPEED_API_KEY).
+#  3. Si metricas.json cambió, lo guarda en el repositorio con un commit automático.
+#     La web de velariz.dev lee ese archivo, así que no hay que volver a subir nada.
+name: Medir métricas
+
+on:
+  schedule:
+    # 13:00 UTC = 9:00 am en Caracas (UTC-4, sin horario de verano)
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+# Permiso mínimo para que el flujo pueda guardar metricas.json en este mismo repositorio
+permissions:
+  contents: write
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    env:
+      # Para que la fecha que se guarda sea la de Caracas y no la del servidor
+      TZ: America/Caracas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Medir los 4 sitios
+        run: node medir_metricas.mjs
+        env:
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+      - name: Guardar resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metricas.json
+          git diff --cached --quiet || git commit -m "Métricas semanales"
+          git push
