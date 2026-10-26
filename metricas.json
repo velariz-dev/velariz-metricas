@@ -1,48 +1,48 @@
 {
-  "actualizado": "2026-10-20",
+  "actualizado": "2026-10-26",
   "herramienta": "Lighthouse 13.5.0 · simulación de celular · servidores de Google (PageSpeed Insights)",
   "sitios": {
     "tatuador": {
-      "rendimiento": 83,
+      "rendimiento": 84,
       "accesibilidad": 97,
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 737,
       "lcpSeg": 3.7,
-      "medido": "2026-10-20",
+      "medido": "2026-10-26",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "panaderia": {
-      "rendimiento": 87,
+      "rendimiento": 83,
       "accesibilidad": 94,
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 466,
-      "lcpSeg": 3.5,
-      "medido": "2026-10-20",
+      "lcpSeg": 3.6,
+      "medido": "2026-10-26",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "libreria": {
       "rendimiento": 80,
       "accesibilidad": 96,
-      "buenasPracticas": 96,
+      "buenasPracticas": 100,
       "seo": 100,
-      "pesoKB": 650,
-      "lcpSeg": 4.4,
-      "medido": "2026-10-20",
+      "pesoKB": 691,
+      "lcpSeg": 3.7,
+      "medido": "2026-10-26",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "artista": {
-      "rendimiento": 86,
+      "rendimiento": 93,
       "accesibilidad": 100,
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 1283,
-      "lcpSeg": 3.8,
-      "medido": "2026-10-20",
+      "lcpSeg": 2.7,
+      "medido": "2026-10-26",
       "corridas": 3,
       "fuente": "pagespeed"
     }
