@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02",
+  "actualizado": "2026-11-05",
   "herramienta": "Lighthouse 13.6.0 · simulación de celular · servidores de Google (PageSpeed Insights)",
   "sitios": {
     "tatuador": {
@@ -9,7 +9,7 @@
       "seo": 100,
       "pesoKB": 737,
       "lcpSeg": 1.5,
-      "medido": "2026-11-02",
+      "medido": "2026-11-05",
       "corridas": 3,
       "fuente": "pagespeed"
     },
@@ -19,30 +19,30 @@
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 465,
-      "lcpSeg": 1.6,
-      "medido": "2026-11-02",
+      "lcpSeg": 1.5,
+      "medido": "2026-11-05",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "libreria": {
-      "rendimiento": 87,
+      "rendimiento": 84,
       "accesibilidad": 96,
       "buenasPracticas": 100,
       "seo": 100,
-      "pesoKB": 752,
-      "lcpSeg": 3.9,
-      "medido": "2026-11-02",
+      "pesoKB": 939,
+      "lcpSeg": 4.4,
+      "medido": "2026-11-05",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "artista": {
-      "rendimiento": 98,
+      "rendimiento": 99,
       "accesibilidad": 100,
       "buenasPracticas": 100,
       "seo": 100,
-      "pesoKB": 1284,
-      "lcpSeg": 1,
-      "medido": "2026-11-02",
+      "pesoKB": 1283,
+      "lcpSeg": 0.9,
+      "medido": "2026-11-05",
       "corridas": 3,
       "fuente": "pagespeed"
     }
