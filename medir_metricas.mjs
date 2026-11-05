@@ -38,7 +38,7 @@ if (!CLAVE) {
 const SITIOS = {
   tatuador:  "https://husseink.netlify.app/",
   panaderia: "https://elchocolate.netlify.app/",
-  libreria:  "https://libreriaz.netlify.app/",
+  libreria:  "https://sharysofi.netlify.app/",
   artista:   "https://artistaz.netlify.app/",
 };
 
