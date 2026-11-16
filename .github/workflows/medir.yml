@@ -1,4 +1,4 @@
-# Mide cada lunes los 4 sitios de ejemplo de VelarizDev y actualiza metricas.json.
+# Mide cada lunes los 6 sitios de ejemplo de VelarizDev y actualiza metricas.json.
 #
 # QUÉ HACE, EN ORDEN
 #  1. Se despierta solo cada lunes (o a mano desde la pestaña Actions → "Run workflow").
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Medir los 4 sitios
+      - name: Medir los 6 sitios
         run: node medir_metricas.mjs
         env:
           PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
