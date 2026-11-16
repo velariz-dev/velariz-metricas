@@ -3,7 +3,7 @@
   "herramienta": "Lighthouse 13.6.0 · simulación de celular · servidores de Google (PageSpeed Insights)",
   "sitios": {
     "tatuador": {
-      "rendimiento": 97,
+      "rendimiento": 100,
       "accesibilidad": 97,
       "buenasPracticas": 100,
       "seo": 100,
@@ -19,29 +19,51 @@
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 465,
-      "lcpSeg": 1.5,
+      "lcpSeg": 1.6,
       "medido": "2026-11-16",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "libreria": {
-      "rendimiento": 88,
+      "rendimiento": 77,
       "accesibilidad": 96,
       "buenasPracticas": 100,
       "seo": 100,
-      "pesoKB": 964,
-      "lcpSeg": 3.8,
+      "pesoKB": 963,
+      "lcpSeg": 5.4,
       "medido": "2026-11-16",
       "corridas": 3,
       "fuente": "pagespeed"
     },
     "artista": {
-      "rendimiento": 99,
+      "rendimiento": 100,
       "accesibilidad": 100,
       "buenasPracticas": 100,
       "seo": 100,
       "pesoKB": 1283,
       "lcpSeg": 0.9,
+      "medido": "2026-11-16",
+      "corridas": 3,
+      "fuente": "pagespeed"
+    },
+    "fletes": {
+      "rendimiento": 97,
+      "accesibilidad": 100,
+      "buenasPracticas": 100,
+      "seo": 60,
+      "pesoKB": 148,
+      "lcpSeg": 1.5,
+      "medido": "2026-11-16",
+      "corridas": 3,
+      "fuente": "pagespeed"
+    },
+    "motos": {
+      "rendimiento": 95,
+      "accesibilidad": 100,
+      "buenasPracticas": 100,
+      "seo": 100,
+      "pesoKB": 118,
+      "lcpSeg": 2.7,
       "medido": "2026-11-16",
       "corridas": 3,
       "fuente": "pagespeed"

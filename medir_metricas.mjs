@@ -1,5 +1,5 @@
 /* =====================================================================
-   medir_metricas.mjs — mide los 4 sitios de ejemplo de VelarizDev con
+   medir_metricas.mjs — mide los 6 sitios de ejemplo de VelarizDev con
    PageSpeed Insights (Lighthouse en los servidores de Google) y guarda
    los resultados en metricas.json.
 
@@ -40,6 +40,8 @@ const SITIOS = {
   panaderia: "https://elchocolate.netlify.app/",
   libreria:  "https://sharysofi.netlify.app/",
   artista:   "https://artistaz.netlify.app/",
+  fletes:    "https://solucionesm.netlify.app/",
+  motos:     "https://motozz.netlify.app/",
 };
 
 const mediana = (nums) => {
